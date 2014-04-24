@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Care</string>
+    <string name="title_section1">Chart</string>
+    <string name="title_section2">Calender</string>
+    <string name="title_section3">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="privacy">Privacy</string>
+    <string name="share_with_institute">Share with institure</string>
+    <string name="share_with_family">Share with family</string>
+    <string name="share_with_doctor">Share_with_doctor</string>
+    <string name="my_profile">My profile</string>
+    <string name="log_out">Log out</string>
+    <string name="account">Account</string>
+    <string name="title_activity_login">Care</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="add">add</string>
+    <string name="title_activity_add">Add Activity</string>
+    <string name="activity_section1">Food</string>
+    <string name="activity_section2">Sports</string>
+    <string name="activity_section3">Insulin</string>
+    <string name="activity_section4">Glucose</string>
+    <string name="title_activity_add_food">AddFoodActivity</string>
+    <string name="title_activity_add_sports">AddSportsActivity</string>
+    <string name="food">Food</string>
+    <string name="sports">Sports</string>
+    <string name="insulin">Insulin</string>
+    <string name="glucose">Glucose</string>
+    <string name="title_activity_add_insulin">AddInsulinActivity</string>
+    <string name="title_activity_add_glucose">AddGlucoseActivity</string>
+    <string name="title_food_list">Items</string>
+    <string name="title_food_detail">Food Detail</string>
+    <string name="title_activity_chart">ChartActivity</string>
+
+</resources>

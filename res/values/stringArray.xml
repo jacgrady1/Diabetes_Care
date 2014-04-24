@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="itemsArray">
+        <item >Food</item>
+        <item >Sport</item>
+        <item >Glucose</item>
+        <item >Insulin</item>
+    </string-array>
+    
+</resources>

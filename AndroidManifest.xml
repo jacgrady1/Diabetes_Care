@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.diabetescare_4_4"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.diabetescare_4_22.LoginActivity"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.diabetescare_4_22.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.diabetescare_4_22.AddActivity"
+            android:label="@string/title_activity_add"
+            android:parentActivityName="com.example.diabetescare_4_22.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetescare_4_4.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.diabetescare_4_22.AddFoodActivity"
+            android:label="@string/title_activity_add_food"
+            android:parentActivityName="com.example.diabetescare_4_22.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetescare_4_4.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.diabetescare_4_22.AddSportsActivity"
+            android:label="@string/title_activity_add_sports"
+            android:parentActivityName="com.example.diabetescare_4_22.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetescare_4_4.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.diabetescare_4_22.AddInsulinActivity"
+            android:label="@string/title_activity_add_insulin"
+            android:parentActivityName="com.example.diabetescare_4_22.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetescare_4_4.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.diabetescare_4_22.AddGlucoseActivity"
+            android:label="@string/title_activity_add_glucose"
+            android:parentActivityName="com.example.diabetescare_4_22.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetescare_4_4.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.diabetescare_4_22.FoodListActivity"
+            android:label="@string/title_food_list"
+            android:parentActivityName="com.example.diabetescare_4_22.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetescare_4_4.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.diabetescare_4_22.FoodDetailActivity"
+            android:label="@string/title_food_detail"
+            android:parentActivityName="com.example.diabetescare_4_22.FoodListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetescare_4_4.FoodListActivity" />
+        </activity>
+        <activity
+            android:name="com.example.diabetescare_4_22.ChartActivity"
+            android:label="@string/title_activity_chart"
+            android:parentActivityName="com.example.diabetescare_4_22.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.diabetescare_4_20.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
